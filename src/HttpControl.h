@@ -10,6 +10,6 @@ public:
     bool updateChronicleCurrentTime(String& currentTime);
     
 private:
-    String getCurrentChronicleUrl = "http://192.168.0.104:8000/vtm_server/chronicles/current";
-    String setCurrentChronicleTime = "http://192.168.0.104:8000/vtm_server/chronicles/current/set_time";
+    String getCurrentChronicleUrl = "http://vtm.haven/vtm_server/chronicles/current";
+    String setCurrentChronicleTime = "http://vtm.haven/vtm_server/chronicles/current/set_time";
 };
