@@ -53,7 +53,7 @@ private:
 
     // The following parameter configures how much the stepper turns after homing.
     // Starting offset should be increased until the top flap touches the front stop.
-    const unsigned int startingOffset[3] = {110, 80, 265};
+    const unsigned int startingOffset[3] = {200, 80, 200};
 
     // Half steps needed for the motors to perform a single rotation.
     // Usually 4096 for 28byj-48 steppers
